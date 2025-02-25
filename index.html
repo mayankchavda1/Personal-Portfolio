@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Navigation -->
+  <nav
+    class="bg-gradient-to-br from-black via-gray-900 to-gray-800 shadow-[0px_5px_30px_rgba(0,0,0,0.8)] fixed w-full z-50 top-0 transition-all duration-300 border-b-[3px] border-gray-600 py-5 backdrop-blur-xl">
+
+    <div class="container mx-auto flex justify-between items-center px-6">
+
+      <!-- Brand Name -->
+      <h1
+        class="text-5xl font-extrabold uppercase tracking-wider drop-shadow-[0_5px_20px_rgba(255,255,255,0.8)] transition duration-300 transform hover:scale-110">
+        <span
+          class="text-transparent bg-clip-text bg-gradient-to-r from-gray-400 via-gray-300 to-white font-serif italic animate-pulse">
+          Mayank Chavda
+        </span>
+      </h1>
+
+      <!-- Navigation Links -->
+      <ul class="flex space-x-8 text-lg font-semibold">
+        <li>
+          <a href="#home"
+            class="relative text-white font-mono transition duration-300 hover:text-gray-400 hover:scale-110 transform after:block after:h-1 after:w-full after:bg-gray-400 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+            🏠 Home
+          </a>
+        </li>
+        <li>
+          <a href="#portfolio"
+            class="relative text-white font-sans transition duration-300 hover:text-gray-500 hover:scale-110 transform after:block after:h-1 after:w-full after:bg-gray-500 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+            🎨 Portfolio
+          </a>
+        </li>
+        <li>
+          <a href="#blog"
+            class="relative text-white font-serif transition duration-300 hover:text-gray-400 hover:scale-110 transform after:block after:h-1 after:w-full after:bg-gray-400 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+            ✍️ Blog
+          </a>
+        </li>
+        <li>
+          <a href="#contact"
+            class="relative text-white font-mono transition duration-300 hover:text-gray-500 hover:scale-110 transform after:block after:h-1 after:w-full after:bg-gray-500 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+            📞 Contact
+          </a>
+        </li>
+        <li>
+          <a href="#download"
+            class="relative text-white font-sans transition duration-300 hover:text-gray-400 hover:scale-110 transform after:block after:h-1 after:w-full after:bg-gray-400 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+            ⬇️ Download
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home"
+    class="h-screen flex items-center justify-center bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white text-center relative overflow-hidden">
+
+    <!-- 3D Background Effect -->
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="absolute w-72 h-72 bg-gray-600 blur-3xl opacity-30 rounded-full top-20 left-20"></div>
+    <div class="absolute w-96 h-96 bg-gray-500 blur-3xl opacity-30 rounded-full bottom-10 right-10"></div>
+
+    <div class="relative z-10 px-6">
+      <h2 class="text-7xl font-extrabold drop-shadow-[0_5px_30px_rgba(255,255,255,0.3)] tracking-wide font-serif">
+        Welcome to <span class="text-gray-300">My Portfolio</span>
+      </h2>
+      <p class="mt-6 text-2xl font-light tracking-wider italic text-gray-400">Showcasing my work and skills with passion
+      </p>
+
+      <!-- Stylish Button -->
+      <a href="#portfolio"
+        class="mt-8 inline-block bg-gradient-to-r from-gray-700 to-gray-500 text-white px-8 py-4 rounded-full text-xl font-extrabold shadow-xl transform transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:from-gray-600 hover:to-gray-400">
+        🚀 Explore My Work
+      </a>
+    </div>
+  </section>
+
+
+
+  <!-- Portfolio Section -->
+  <section id="portfolio"
+    class="py-20 bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white text-center relative overflow-hidden">
+
+    <!-- Floating Glow Effects -->
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="absolute w-80 h-80 bg-gray-600 blur-3xl opacity-30 rounded-full top-20 left-20"></div>
+    <div class="absolute w-96 h-96 bg-gray-500 blur-3xl opacity-30 rounded-full bottom-10 right-10"></div>
+
+    <div class="relative z-10 container mx-auto px-10">
+      <h2 class="text-5xl font-extrabold mb-12 text-gray-300 drop-shadow-xl">My Portfolio</h2>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Project Card -->
+        <div
+          class="bg-gray-900 text-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:scale-105 border border-gray-700">
+          <img src="./image1.webp" alt="Project 1" class="rounded-lg mb-4">
+          <h3 class="text-xl font-bold mb-2 text-gray-300">Project One</h3>
+          <p class="text-gray-400">A vibrant and visually appealing salad website showcasing fresh, healthy recipes with
+            stunning images and easy-to-follow guides.</p>
+          <a href="#"
+            class="mt-4 inline-block bg-gradient-to-r from-gray-700 to-gray-500 text-white px-4 py-2 rounded-full hover:scale-105 transition-all duration-300 shadow-md">
+            View Project
+          </a>
+        </div>
+
+        <!-- Project Card -->
+        <div
+          class="bg-gray-900 text-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:scale-105 border border-gray-700">
+          <img src="./image2.webp" alt="Project 2" class="rounded-lg mb-4">
+          <h3 class="text-xl font-bold mb-2 text-gray-300">Project Two</h3>
+          <p class="text-gray-400">Indulge in a delightful world of creamy ice cream, flaky puffs, and rich chocolate
+            biscuits, crafted for ultimate sweetness and satisfaction.</p>
+          <a href="#"
+            class="mt-4 inline-block bg-gradient-to-r from-gray-700 to-gray-500 text-white px-4 py-2 rounded-full hover:scale-105 transition-all duration-300 shadow-md">
+            View Project
+          </a>
+        </div>
+
+        <!-- Project Card -->
+        <div
+          class="bg-gray-900 text-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:scale-105 border border-gray-700">
+          <img src="./image3.webp" alt="Project 3" class="rounded-lg mb-4">
+          <h3 class="text-xl font-bold mb-2 text-gray-300">Project Three</h3>
+          <p class="text-gray-400">Savor the ultimate burger experience with mouthwatering flavors, juicy patties, and
+            gourmet ingredients crafted to perfection.</p>
+          <a href="#"
+            class="mt-4 inline-block bg-gradient-to-r from-gray-700 to-gray-500 text-white px-4 py-2 rounded-full hover:scale-105 transition-all duration-300 shadow-md">
+            View Project
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Blog Section -->
+  <section id="blog"
+    class="py-20 bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white text-center relative overflow-hidden">
+
+    <!-- Floating Gradient Background Effect -->
+    <div class="absolute inset-0 bg-gradient-to-r from-gray-700 via-gray-600 to-gray-500 opacity-30 blur-3xl"></div>
+
+    <div class="relative z-10">
+      <h2
+        class="text-6xl font-extrabold uppercase tracking-wide mb-12 text-transparent bg-clip-text bg-gradient-to-r from-gray-400 via-gray-300 to-white drop-shadow-xl">
+        Latest Blog Posts
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 container mx-auto px-6">
+
+        <!-- Blog Post Card -->
+        <div
+          class="bg-gray-900 text-white p-8 shadow-2xl rounded-xl transform hover:scale-105 hover:-translate-y-2 transition duration-300 border border-gray-700 hover:border-gray-500 bg-opacity-90 backdrop-blur-md">
+          <h3 class="text-3xl font-bold text-gray-300 mb-3">1. The Art of Crafting the Perfect Burger</h3>
+          <p class="text-gray-400 leading-relaxed">
+            A gourmet burger is more than just a meal; it’s a masterpiece of flavors and textures. From selecting the
+            finest ingredients to mastering the perfect sear, every step contributes to a mouthwatering experience.
+          </p>
+          <a href="#"
+            class="text-gray-400 font-bold mt-4 inline-block hover:underline hover:text-gray-200 transition">Read
+            More →</a>
+        </div>
+
+        <!-- Blog Post Card -->
+        <div
+          class="bg-gray-900 text-white p-8 shadow-2xl rounded-xl transform hover:scale-105 hover:-translate-y-2 transition duration-300 border border-gray-700 hover:border-gray-500 bg-opacity-90 backdrop-blur-md">
+          <h3 class="text-3xl font-bold text-gray-300 mb-3">2. The Science Behind Decadent Chocolate Desserts</h3>
+          <p class="text-gray-400 leading-relaxed">
+            Chocolate is not just a treat—it’s an art form. Understanding the balance of cocoa, sweetness, and texture
+            is key to creating luxurious desserts. Whether it’s a silky mousse, a fudgy brownie, or a delicate truffle.
+          </p>
+          <a href="#"
+            class="text-gray-400 font-bold mt-4 inline-block hover:underline hover:text-gray-200 transition">Read
+            More →</a>
+        </div>
+
+        <!-- Blog Post Card -->
+        <div
+          class="bg-gray-900 text-white p-8 shadow-2xl rounded-xl transform hover:scale-105 hover:-translate-y-2 transition duration-300 border border-gray-700 hover:border-gray-500 bg-opacity-90 backdrop-blur-md">
+          <h3 class="text-3xl font-bold text-gray-300 mb-3">3. Healthy Eating Redefined: Fresh & Flavorful Salads</h3>
+          <p class="text-gray-400 leading-relaxed">
+            Who says healthy eating has to be boring? A well-crafted salad combines crisp greens, vibrant vegetables,
+            and protein-rich toppings, dressed in bold flavors that excite the palate.
+          </p>
+          <a href="#"
+            class="text-gray-400 font-bold mt-4 inline-block hover:underline hover:text-gray-200 transition">Read More
+            →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Contact Section -->
+  <section id="contact"
+    class="py-20 bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white text-center relative overflow-hidden">
+
+    <!-- Floating Abstract Glow Effect -->
+    <div class="absolute inset-0 bg-gradient-to-r from-gray-700 via-gray-600 to-gray-500 opacity-30 blur-3xl"></div>
+
+    <div class="relative z-10">
+      <h2
+        class="text-6xl font-extrabold uppercase tracking-wide mb-6 text-transparent bg-clip-text bg-gradient-to-r from-gray-400 via-gray-300 to-white drop-shadow-xl">
+        Get In Touch
+      </h2>
+
+      <p class="text-lg mb-10 text-gray-300 font-light">Feel free to reach out for collaborations or just a friendly
+        chat!</p>
+
+      <form
+        class="max-w-lg mx-auto bg-gray-900 bg-opacity-80 backdrop-blur-lg p-10 shadow-2xl rounded-xl border border-gray-700 transform hover:scale-105 transition duration-300">
+
+        <input type="text" placeholder="Your Name"
+          class="w-full p-4 mb-4 border border-gray-600 rounded-lg focus:ring-2 focus:ring-gray-400 text-gray-300 bg-transparent placeholder-gray-500">
+
+        <input type="email" placeholder="Your Email"
+          class="w-full p-4 mb-4 border border-gray-600 rounded-lg focus:ring-2 focus:ring-gray-400 text-gray-300 bg-transparent placeholder-gray-500">
+
+        <textarea placeholder="Your Message"
+          class="w-full p-4 mb-4 border border-gray-600 rounded-lg focus:ring-2 focus:ring-gray-400 text-gray-300 bg-transparent placeholder-gray-500"></textarea>
+
+        <button
+          class="bg-gradient-to-r from-gray-500 via-gray-400 to-gray-300 text-black px-10 py-4 rounded-full text-lg font-bold shadow-lg hover:scale-105 transition transform duration-300 hover:shadow-2xl">
+          Send Message 🚀
+        </button>
+
+      </form>
+    </div>
+  </section>
+
+
+
+  <!-- Download Section -->
+  <section id="download"
+    class="py-20 bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white text-center relative overflow-hidden">
+
+    <!-- Floating Abstract Glow Effect -->
+    <div class="absolute inset-0 bg-gradient-to-r from-gray-700 via-gray-600 to-gray-500 opacity-30 blur-3xl"></div>
+
+    <div class="relative z-10">
+      <h2
+        class="text-6xl font-extrabold uppercase tracking-wide mb-6 text-transparent bg-clip-text bg-gradient-to-r from-gray-400 via-gray-300 to-white drop-shadow-xl font-serif">
+        Download My Resume
+      </h2>
+
+      <p class="text-lg mb-10 text-gray-300 font-light">Click the button below to download my latest resume.</p>
+
+      <!-- 6D Download Button -->
+      <a href="resume.pdf" download="Mayank_Chavda_Resume.pdf" class="relative px-10 py-4 text-lg font-bold text-white bg-gradient-to-b from-gray-600 to-gray-900 rounded-full shadow-[0_5px_0px_#374151] transition-all duration-300 transform hover:translate-y-[2px] active:translate-y-[5px] active:shadow-[0_2px_0px_#374151] shadow-xl 
+      hover:shadow-[0_0_15px_rgba(255,255,255,0.5)] border border-gray-500">
+
+        <span
+          class="absolute inset-0 bg-gradient-to-b from-gray-700 to-gray-900 rounded-full opacity-0 transition duration-300 hover:opacity-100"></span>
+
+        <span class="relative z-10 flex items-center justify-center space-x-2">
+          📄 <span>Download Now</span>
+        </span>
+      </a>
+    </div>
+  </section>
+</body>
+
+</html>
